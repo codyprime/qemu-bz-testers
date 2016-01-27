@@ -1,0 +1,4 @@
+#!/bin/bash
+./configure --target-list=x86_64-softmmu --prefix=/home/jcody/deploy-upstream/ --disable-docs --enable-glusterfs --enable-vhdx --audio-drv-list=pa --disable-stack-protector --disable-spice --disable-strip --enable-libnfs --disable-strip
+make -j12 && make install
+
